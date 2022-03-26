@@ -1,0 +1,5 @@
+version: '1'
+
+thresholds: # https://www.codeac.io/documentation/issue-thresholds.html
+    error: 5
+    total: 10
