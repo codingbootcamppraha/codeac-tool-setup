@@ -1,4 +1,4 @@
-const articleList = [] // In a real app this list would be full of articles.
+const articleList = []; // In a real app this list would be full of articles.
 var kudos = 5;
 
 function calculateTotalKudos(articles) {
