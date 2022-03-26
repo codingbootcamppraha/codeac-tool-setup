@@ -28,9 +28,12 @@ rules:
     - 10
   curly: warn
   eol-last:
-    - error
+    - warn
     - always
-  id-length: error
+  id-length:
+    - warn
+    - min: 1
+      max: 30
   max-lines: error
   max-params:
     - error
@@ -52,7 +55,7 @@ rules:
   no-unused-vars: warn
   no-useless-concat: warn
   no-label-var: warn
-  no-use-before-define: error
+  no-use-before-define: off
   no-const-assign: error
   no-useless-constructor: warn
   no-useless-rename: warn
